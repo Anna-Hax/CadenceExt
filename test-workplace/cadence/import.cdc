@@ -1,0 +1,2 @@
+import HeroManager from 0xc6e616f1e50fcfab
+import ItemManager from 0xc6e616f1e50fcfab

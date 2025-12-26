@@ -1,0 +1,74 @@
+{
+	"contracts": {
+		"HeroManager": {
+			"source": "cadence/contracts/HeroManager.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "c6e616f1e50fcfab"
+			}
+		},
+		"ItemManager": {
+			"source": "cadence/contracts/ItemManager.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "c6e616f1e50fcfab"
+			}
+		},
+		"MarketPlace2": {
+			"source": "cadence/contracts/MarketPlace2.cdc",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "c6e616f1e50fcfab"
+			}
+		}
+		
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testing": "127.0.0.1:3569",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"dependencies": {
+		"MetadataViews": {
+			"source": "testnet://1d7e57aa55817448.MetadataViews",
+			"hash": "5a4f0c3f3a3e2e8e1f6f3c6d3e4b5a6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "testnet://1d7e57aa55817448.NonFungibleToken",
+			"hash": "b63f10e00d1a814492822652dac7c0574428a200e4c26cb3c832c4829e2778f0",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		},
+		"ViewResolver": {
+			"source": "testnet://1d7e57aa55817448.ViewResolver",
+			"hash": "374a1994046bac9f6228b4843cb32393ef40554df9bd9907a702d098a2987bde",
+			"aliases": {
+				"emulator": "f8d6e0586b0a20c7",
+				"testnet": "631e88ae7f1d7c20"
+			}
+		}
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": {
+				"type": "file",
+				"location": "emulator-account.pkey"
+			}
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [
+				"HeroManager"
+			]
+		}
+	}
+}
