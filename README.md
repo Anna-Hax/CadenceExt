@@ -146,37 +146,4 @@ Default:
 
 ---
 
-## Release Notes
-
-### 1.0.0
-
-Initial release with:
-
-* Network switching
-* `flow.json` parsing (contracts and dependencies)
-* Bulk import updating
-* Preview mode
-* Status bar network indicator
-* Last used network persistence
-* Multi-root workspace support
-
----
-
-## Working With Markdown
-
-Useful VS Code shortcuts:
-
-* Split editor: `Ctrl+\`
-* Toggle preview: `Ctrl+Shift+V`
-* Markdown autocomplete: `Ctrl+Space`
-
----
-
-## More Information
-
-* Flow documentation: [https://developers.flow.com](https://developers.flow.com)
-* Cadence reference: [https://developers.flow.com/cadence](https://developers.flow.com/cadence)
-* VS Code Extension API: [https://code.visualstudio.com/api](https://code.visualstudio.com/api)
-
-```
 
